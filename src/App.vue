@@ -1,14 +1,20 @@
 <template>
-  <img alt="funny" src="./assets/nodeFunny.jpg" width="300" height="300">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <NavbarComponent />
+    <router-view></router-view>
+    <img alt="funny" src="./assets/nodeFunny.jpg" width="300" height="300">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavbarComponent from './components/NavbarComponent.vue';
+import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'App',
   components: {
+    NavbarComponent,
     HelloWorld
   }
 }
