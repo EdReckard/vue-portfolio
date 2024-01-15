@@ -27,6 +27,7 @@ ul {
   list-style: none;
   padding: 0;
   display: flex;
+  text-align: right;
 }
 
 li {
