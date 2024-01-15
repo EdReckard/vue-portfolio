@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <NavbarComponent />
-    <router-view></router-view>
-    <img alt="funny" src="./assets/nodeFunny.jpg" width="300" height="300">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NavbarComponent/>
+    <img alt="funny" src="./assets/nodeFunny.jpg" width="600" height="300">
+    <HelloWorld msg="Horray you've made it!"/>
+    
   </div>
 </template>
 
@@ -14,8 +14,8 @@ import HelloWorld from './components/HelloWorld.vue';
 export default {
   name: 'App',
   components: {
-    NavbarComponent,
-    HelloWorld
+    HelloWorld,
+    NavbarComponent
   }
 }
 </script>

@@ -2,8 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
+      If you would like to take a look at my other garbage site, click here!
       <a href="https://edreckard.github.io/ER-Portfolio/" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
   </div>
@@ -32,6 +31,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #7942b9;
 }
 </style>
