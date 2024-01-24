@@ -1,15 +1,24 @@
 <template>
-  <img alt="funny" src="./assets/nodeFunny.jpg" width="300" height="300">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <TitleBar/>
+    <NavbarComponent/>
+    <img alt="funny" src="./assets/nodeFunny.jpg" width="600" height="300">
+    <HelloWorld msg="Horray you've made it!"/>
+    
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavbarComponent from './components/NavbarComponent.vue';
+import HelloWorld from './components/HelloWorld.vue';
+import TitleBar from './components/TitleBar.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    NavbarComponent,
+    TitleBar
   }
 }
 </script>
@@ -21,6 +30,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 5px;
 }
 </style>

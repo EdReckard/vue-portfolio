@@ -2,8 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Well Mr. death of all human hair pieces
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      If you would like to take a look at my other garbage site, click here!
+      <a href="https://edreckard.github.io/ER-Portfolio/" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
   </div>
 </template>
@@ -31,6 +31,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #7942b9;
 }
 </style>
