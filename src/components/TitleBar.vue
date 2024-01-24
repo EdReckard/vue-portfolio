@@ -1,5 +1,5 @@
 <template>
-  <h1>Ed Reckard - Software Developer and IT Specialist</h1>
+  <h1>Software Developer and IT Specialist</h1>
 </template>
 
 <script>
@@ -14,7 +14,18 @@ export default {
 h1 {
   background-color: #49f783;
   padding: 10px;
-  color: black
+  color: black;
+  
+  display: flex;
+  border-radius: 0.2em;
+  position: relative;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.9s ease;
+
+  
   
 }
 

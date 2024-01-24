@@ -1,25 +1,28 @@
 <template>
   <div id="app">
-    <TitleBar/>
-    <NavbarComponent/>
-    <img alt="funny" src="./assets/nodeFunny.jpg" width="600" height="300">
-    <HelloWorld msg="Horray you've made it!"/>
-    
+      <SidebarComponent/>
+      <div :style="{ 'margin-left':sidebarWidth, 'margin-right':'20px'}">
+        <TitleBar/>
+        <router-view/>
+      </div>
   </div>
 </template>
 
 <script>
-import NavbarComponent from './components/NavbarComponent.vue';
-import HelloWorld from './components/HelloWorld.vue';
+
 import TitleBar from './components/TitleBar.vue';
+import SidebarComponent from './components/sidebar/SidebarComponent.vue';
+import {sidebarWidth} from "./components/sidebar/state.js"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    NavbarComponent,
-    TitleBar
-  }
+    TitleBar,
+    SidebarComponent
+  },
+   setup(){
+    return {sidebarWidth}
+   }
 }
 </script>
 
@@ -30,6 +33,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 5px;
+  margin-top: 0px;
+  background-color: rgb(223, 211, 147);
+  position:static;
+  z-index:1;
+  top:0;
+  left:0;
+  
+  bottom:0;
+  padding:1em;
+  border-radius: 0.2em;
+  flex-direction: column;
+  transition: 0.9s ease;
 }
 </style>
+
