@@ -1,7 +1,8 @@
 <template>
   <div>
-    <SingleBlock header="Welcome to the Projects Page!" 
+    <SingleBlock header="Projects" 
     text="Fill in text here!"/>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
   </div>
 </template>

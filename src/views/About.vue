@@ -1,10 +1,11 @@
 <template>
   <div>
-    <SingleBlock header="Welcome to the About Page!" 
+    <SingleBlock header="About Me" 
     text="Fill in text here!"/>
     <img alt="funny" src="./../assets/nodeFunny.jpg" width="300" height="300">
     <HelloWorld msg="Want more?"/>
   </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </template>
 
 <script>

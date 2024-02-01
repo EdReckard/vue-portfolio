@@ -24,6 +24,9 @@ h1 {
   display: flex;
   flex-direction: column;
   transition: 0.9s ease;
+  text-align: center;
+  
+  border-style: solid;
 
   
   
