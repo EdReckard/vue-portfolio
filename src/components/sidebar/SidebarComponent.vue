@@ -26,11 +26,10 @@ export default {
 
 
         <SidebarLink to="/" icon="fas fa-home">Home</SidebarLink>
-        <SidebarLink to="about" icon="fas fa-columns">About</SidebarLink>
-        <SidebarLink to="projects" icon="fa-solid fa-cloud">Projects</SidebarLink>
-        <SidebarLink to="contact" icon="fas fa-users">Contact</SidebarLink>
-        <SidebarLink to="resume" icon="fa-solid fa-file-pdf">Resume</SidebarLink>
-        
+        <SidebarLink to="/About" icon="fas fa-columns">About</SidebarLink>
+        <SidebarLink to="/Projects" icon="fa-solid fa-cloud">Projects</SidebarLink>
+        <SidebarLink to="/Resume" icon="fa-solid fa-file-pdf">Resume</SidebarLink>
+        <SidebarLink to="/Contact" icon="fas fa-users">Contact</SidebarLink>
        
 
         <span class="collapse-icon" 
