@@ -1,10 +1,15 @@
 <template>
   <div>
     <SingleBlock header="Welcome to the Home Page!" 
-    text="This is Ed Reckards Personal Portfolio Website 
-    showcasing all of his past work in software development, web design, and IT specialties.
-    Feel free to use the left panel to navigate thought he website. Click the arrows in the 
-    bottom left to minimize it."/>
+    text="This my Personal Portfolio Website 
+    showcasing all of my past work."
+    text0=
+    "Feel free to use the left panel to navigate thought he website."
+    text1=" Click the arrows in the 
+    bottom left to minimize it."
+    
+    />
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
   </div>
 </template>
@@ -20,4 +25,3 @@ export default {
   },
 }
 </script>
-
