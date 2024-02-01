@@ -1,4 +1,15 @@
 <template>
+
+<!-- 
+(After building "npm run build")
+git add dist -f
+git commit -m "adding dist"
+git subtree push --prefix dist origin gh-pages
+
+
+-->
+
+
   <div id="app">
       <SidebarComponent/>
       <div :style="{ 'margin-left':sidebarWidth, 'margin-right':'20px'}">
@@ -26,6 +37,7 @@ export default {
 }
 </script>
 
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -46,4 +58,5 @@ export default {
   transition: 0.9s ease;
 }
 </style>
+
 
