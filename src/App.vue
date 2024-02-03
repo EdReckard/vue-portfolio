@@ -3,7 +3,7 @@
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    colorrgb(68, 151, 235)50;
+    color:rgb(70, 177, 145);
     margin: 0px;
     background-color: rgb(223, 211, 147);
     position:static;
@@ -22,10 +22,14 @@
 <template>
 
 <!-- 
-(After building "npm run build")
+(Deployment notes) 
+npm run build
 git add dist -f
 git commit -m "adding dist"
 git subtree push --prefix dist origin gh-pages
+
+npm update
+npm install
 
 
 -->
