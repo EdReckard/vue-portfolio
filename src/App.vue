@@ -3,7 +3,7 @@
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color:rgb(70, 177, 145);
+    color:rgb(10, 177, 127);
     margin: 0px;
     background-color: rgb(223, 211, 147);
     position:static;
@@ -31,6 +31,15 @@ git subtree push --prefix dist origin gh-pages
 npm update
 npm install
 
+
+set -e
+npm run build
+cd dist
+
+git init
+git add -A
+git commit -m "deploy"
+git push -f git@github.com:EdReckard/vue-portfolio.git main:gh-pages
 
 -->
 
