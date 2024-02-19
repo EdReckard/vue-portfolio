@@ -1,7 +1,7 @@
 <template>
   <div>
     <SingleBlock header="Projects" 
-    text="Fill in text here!"/>
+    text="None yet finished, please see the projects listed in my resume or visit my github page."/>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
   </div>
