@@ -1,8 +1,9 @@
 //This file contains the status of the sidebar
 import { ref, computed } from 'vue'
 
+
 //Reactive varible on/off
-export const collapsed = ref(false)
+export const collapsed = ref(true)
 export const toggleSidebar = () => (collapsed.value = !collapsed.value)
 
 export const SIDEBAR_WIDTH=200

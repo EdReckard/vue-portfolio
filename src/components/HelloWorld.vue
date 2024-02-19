@@ -2,8 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      If you would like to take a look at my other garbage site, click here!
-      <a href="https://edreckard.github.io/ER-Portfolio/" target="_blank" rel="noopener">vue-cli documentation</a>.
+      This link will send you to the most interesting web page if you  
+      <a href="https://edreckard.github.io/ER-Portfolio/" target="_blank" rel="noopener">click here.</a>
     </p>
   </div>
 </template>

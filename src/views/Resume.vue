@@ -1,7 +1,7 @@
 <template>
   <div>
     <SingleBlock header="Resume" 
-    text="Below you can see my resume and a link below to download"/>
+    text="Below you can see my resume. Click the link below to download it."/>
     <div class="resume">
       <img src="./../assets/Ed_Reckard_Resume(January 2023).png" width="900" height="1200"/>
       <br>

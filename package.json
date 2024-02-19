@@ -16,6 +16,7 @@
     "mysql": "^2.18.1",
     "mysql2": "^3.6.5",
     "vue": "^3.2.13",
+    "vue-mobile": "^1.4.26",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
