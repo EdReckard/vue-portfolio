@@ -9,7 +9,7 @@
 
       <p1>Email: edwardreckard13@gmail.com</p1><br><br>
       <p1>Phone Number: (717) 398-5325 </p1><br><br>
-      <a href="www.linkedin.com/in/edreckard" target="_blank" rel="noopener">Click here to visit my LinkedIn</a><br><br>
+      <a href="https://www.linkedin.com/in/edreckard" target="_blank" rel="noopener">Click here to visit my LinkedIn</a><br><br>
       <a href="https://github.com/EdReckard" target="_blank" rel="noopener">Click here to visit my Github</a><br><br>
       <p >Feel free to screenshot the QR code below to share this portfolio.</p>
       <img style=" margin: 50px;

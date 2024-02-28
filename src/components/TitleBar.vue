@@ -1,5 +1,5 @@
 <template>
-  <h1>Software Developer and IT Specialist</h1>
+  <h1>Edward Reckard - IT Developer</h1>
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
 <style scoped>
 /* Add styles for your navigation bar here */
 h1 {
-  background-color: #49f783;
+  background-color: #2c9750;
   padding: 10px;
   color: black;
   
