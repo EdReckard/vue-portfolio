@@ -22,7 +22,6 @@
 
 
   </div>
-  <HelloWorld msg="Want more?"/>
 
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </template>
