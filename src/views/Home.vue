@@ -4,7 +4,7 @@
     text="This my Personal Portfolio Website 
     showcasing all of my past work."
     text0=
-    "Feel free to use the left panel to navigate thought he website."
+    "Feel free to use the left panel to navigate though the website."
     text1=" Click the arrows in the 
     bottom left to minimize it."
     
