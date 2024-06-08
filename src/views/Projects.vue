@@ -30,7 +30,8 @@ Collaborating with a team, I assisted in the development of a text-based adventu
 
           <h2>Data Visualization Application - York College 2022 Hackathon - York College</h2>
           <h2>Set up Ubuntu Database on Company Server- Garrety Glass - Dallastown, PA</h2>
-          
+          <h2>Equiptment/Part Price checking script using Selenium- Garrety Glass - Dallastown, PA</h2>
+          <h2>Set up Ubuntu 20.04 on personal Macbook to run ROS application on virtual machine using VMware Fusion</h2>
 
           
           
